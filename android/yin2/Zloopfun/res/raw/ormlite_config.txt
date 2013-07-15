@@ -1,0 +1,156 @@
+#
+# generated on 2012/06/06 05:55:57
+#
+# --table-start--
+dataClass=net.zloop.mobile.model.User
+tableName=userdata
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=email
+# --field-end--
+# --field-start--
+fieldName=username
+indexName=simpledata_string_idx
+# --field-end--
+# --field-start--
+fieldName=password
+indexName=simpledata_string_idx
+# --field-end--
+# --field-start--
+fieldName=salt
+indexName=simpledata_string_idx
+# --field-end--
+# --field-start--
+fieldName=address
+indexName=simpledata_string_idx
+# --field-end--
+# --field-start--
+fieldName=phone
+indexName=simpledata_string_idx
+# --field-end--
+# --field-start--
+fieldName=ifNotify
+# --field-end--
+# --field-start--
+fieldName=sendWeeklyEmail
+# --field-end--
+# --field-start--
+fieldName=nextNotify
+# --field-end--
+# --field-start--
+fieldName=intervalNotify
+# --field-end--
+# --field-start--
+fieldName=create_time
+# --field-end--
+# --field-start--
+fieldName=last_modified
+# --field-end--
+# --field-start--
+fieldName=profilepicid
+# --field-end--
+# --field-start--
+fieldName=session
+indexName=simpledata_string_idx
+# --field-end--
+# --table-fields-end--
+# --table-end--
+
+# --table-start--
+dataClass=net.zloop.mobile.model.Item
+tableName=itemdata
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=title
+indexName=itemdata_string_idx
+# --field-end--
+# --field-start--
+fieldName=uri
+indexName=itemdata_string_idx
+# --field-end--
+# --field-start--
+fieldName=pricelow
+# --field-end--
+# --field-start--
+fieldName=pricehigh
+indexName=itemdata_string_idx
+# --field-end--
+# --field-start--
+fieldName=content
+indexName=itemdata_string_idx
+# --field-end--
+# --field-start--
+fieldName=presentation
+indexName=itemdata_string_idx
+# --field-end--
+# --field-start--
+fieldName=tagString
+indexName=itemdata_string_idx
+# --field-end--
+# --field-start--
+fieldName=create_time
+# --field-end--
+# --field-start--
+fieldName=last_modified
+# --field-end--
+# --field-start--
+fieldName=userid
+# --field-end--
+# --field-start--
+fieldName=categoryid
+# --field-end--
+# --field-start--
+fieldName=conditionid
+# --field-end--
+# --field-start--
+fieldName=statusid
+# --field-end--
+# --field-start--
+fieldName=expire_time
+# --field-end--
+# --field-start--
+fieldName=conditionbackup
+# --field-end--
+# --field-start--
+fieldName=expire_email_flag_time
+# --field-end--
+# --field-start--
+fieldName=pics
+foreignCollection=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+
+# --table-start--
+dataClass=net.zloop.mobile.model.ItemImg
+tableName=itemimgdata
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=uri
+indexName=itemimgdata_string_idx
+# --field-end--
+# --field-start--
+fieldName=localPath
+indexName=itemimgdata_string_idx
+# --field-end--
+# --field-start--
+fieldName=item
+foreign=true
+foreignAutoRefresh=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+

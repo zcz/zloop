@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	    
+	<LinearLayout
+	    android:id="@+id/linearLayout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:overScrollMode="ifContentScrolls" >
+	
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="60dp"
+	        android:background="@drawable/border_single_line" >
+	
+	        <EditText
+	            android:id="@+id/textView_list_title"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_marginBottom="10dp"
+	            android:layout_marginLeft="50dp"
+	            android:layout_marginRight="10dp"
+	            android:layout_marginTop="10dp"
+	            android:layout_weight="0.58"
+	            android:ems="10"
+	            android:hint="item title ..."
+	            android:inputType="textPersonName"
+	            android:maxEms="10" >
+	
+	            <requestFocus />
+	        </EditText>
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="60dp"
+	        android:background="@drawable/border_single_line_without_arrow" >
+	
+	        <TextView
+	            android:id="@+id/TextView01"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="50dp"
+	            android:layout_marginTop="15dp"
+	            android:text="Category"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        <Spinner
+	            android:id="@+id/Spinner_post_category"
+	            android:layout_width="fill_parent"
+	            android:layout_height="40dp"
+	            android:layout_marginRight="10dp"
+	            android:layout_marginTop="12dp"
+	            android:layout_weight="1" />
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="60dp"
+	        android:background="@drawable/border_single_line_without_arrow" >
+	
+	        <TextView
+	            android:id="@+id/condition_textView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="50dp"
+	            android:layout_marginTop="15dp"
+	            android:text="Condition"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        <Spinner
+	            android:id="@+id/spinner_post_condition"
+	            android:layout_width="fill_parent"
+	            android:layout_height="40dp"
+	            android:layout_marginRight="10dp"
+	            android:layout_marginTop="12dp" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="60dp"
+	        android:background="@drawable/border_single_line_without_arrow" >
+	
+	        <TextView
+	            android:id="@+id/textView_detail_owner"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="50dp"
+	            android:layout_marginTop="15dp"
+	            android:text="Price"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        <EditText
+	            android:id="@+id/editText_post_pricelow"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="15dp"
+	            android:layout_weight="1"
+	            android:ems="10"
+	            android:hint="0.00"
+	            android:inputType="numberDecimal" />
+	
+	        <TextView
+	            android:id="@+id/textView_detail_owner"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="15dp"
+	            android:text=" to "
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        <EditText
+	            android:id="@+id/editText_post_pricehigh"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="15dp"
+	            android:layout_marginTop="15dp"
+	            android:layout_weight="1"
+	            android:ems="10"
+	            android:hint="0.00"
+	            android:inputType="numberDecimal" />
+	
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="124dp" >
+	
+	        <ImageView
+	            android:id="@+id/imageView_list_thumbnail"
+	            android:layout_width="138dp"
+	            android:layout_height="match_parent" />
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:background="@drawable/border_single_line_without_arrow" >
+	
+	        android:layout_width="match_parent"
+	        android:layout_height="124dp" >
+	            
+	        <EditText
+	            android:id="@+id/editText_post_itemDesc"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_marginLeft="30dp"
+	            android:ems="10"
+	            android:hint="item description .."
+	            android:inputType="textMultiLine"
+	            android:maxLines="5" />
+	
+	        </LinearLayout>
+	
+	    </LinearLayout>
+	<LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="80dp">
+	
+	    <ImageButton
+	        android:id="@+id/ImageButton_post_takephoto"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@android:drawable/ic_menu_camera" />
+	
+	    <ImageButton
+	        android:id="@+id/ImageButton_post_delete"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@android:drawable/ic_menu_delete"
+	        android:visibility="gone" />
+	
+	    <Button
+	        android:id="@+id/button_post"
+	        android:layout_width="match_parent"
+	        android:layout_height="70dp"
+	        android:layout_weight="1"
+	        android:background="@drawable/border_post"
+	        android:text="Post my item!" />
+	
+	    </LinearLayout>
+	
+	</LinearLayout>
+
+</ScrollView>
