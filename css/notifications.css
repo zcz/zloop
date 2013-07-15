@@ -1,0 +1,170 @@
+#notifications
+{
+	margin:0;
+	padding: 0;
+	clear:both;
+	width:300px;
+	height:25px;
+}
+
+ul.notifications-main,
+ul.notifications-main li 
+{
+	list-style: none;
+	padding: 0;
+}
+
+
+ul.notifications-main {
+	position: relative;
+	z-index: 597;
+}
+
+/*ul.notifications-main li:hover > ul {
+	visibility: visible;
+}
+
+
+ul.notifications-main li.hover,
+ul.notifications-main li.notification-button:hover {
+	position:relative;
+	z-index: 599;
+	cursor: pointer;
+	color:#000;
+	background:white;
+	border-top:1px solid #000;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+}*/
+
+ul.notifications-main li.notification-clicked{
+	position:relative;
+	z-index: 599;
+	cursor: pointer;
+	color:#000;
+	background:white;
+	border-top:1px solid #000;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+	height:25px;
+}
+
+ul.notifications-main li.notification-clicked a{
+	color:#000;
+}
+
+ul.notifications-main li{
+	float:left;
+	margin-left: 10px;
+}
+
+ul.notifications-main li.notification-button {
+	float:left;
+	display:block;
+	height: 25px;
+	width:84px;
+	/*color: #999;*/
+	/*font: 14px Arial, Helvetica, sans-serif;*/
+	/*background: url(/images/separator.gif) no-repeat right center;*/
+}
+
+ul.notifications-main li a {
+	display:block;
+	padding: 0 6px 0 6px;
+	width:72px;
+	height: 20px;
+	/*font: 14px Arial, Helvetica, sans-serif;*/
+	text-decoration:none;
+}
+
+ul.notifications-main li.notification-button a {
+	color:#333;
+}
+
+ul.notifications-main li.notification-button a:hover {
+	background:lightgray;
+}
+
+
+
+/*ul.notifications-main *.list {
+	padding-right: 22px;
+	background: url(/images/navigation-arrow.gif) no-repeat right top;
+}*/
+
+
+ul.notifications-hide{
+	visibility:hidden;
+}
+
+ul.notifications-sub {
+	visibility: visible;
+	position: absolute;
+	top: 25px;
+	left: -1px;
+	z-index: 598;
+	background: White;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+	width:270px;
+	margin:0;
+	padding:0;
+}
+
+ul.notifications-sub li {
+	list-style:none;
+	display:block;
+	padding: 0;
+	height: 46px;
+	float: none;
+	width:270px;
+	border-bottom: 1px solid #ccc;
+	background: none;
+	margin:0;
+	position:relative;
+}
+
+ul.notifications-sub li a.notification {
+	list-style:none;
+	display:block;
+	height: 35px;
+	float: none;
+	width:250px;
+	background: none;
+	font: 12px "lucida grande",tahoma,verdana,arial,sans-serif;
+	margin:0;
+	padding-left:10px;
+	padding-top:6px;
+	padding-bottom:6px;
+	color:#333;
+}
+
+ul.notifications-sub li a.notification b
+{
+	color:yellowgreen;
+	font-size:15px;
+}
+
+ul.notifications-sub li:hover{
+	background:Yellowgreen;
+}
+
+ul.notifications-sub li a.notification:hover
+{
+	color:white;
+}
+
+ul.notifications-sub li a.notification:hover b
+{
+	color:white;
+}
+/*ul.notifications-sub li:hover > a.close-note {
+	color:white;
+}
+
+ul.notifications-sub li a.close-note {
+	position:absolute;
+	right:5px;
+	font-weight:bold;
+}*/

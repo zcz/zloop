@@ -1,0 +1,64 @@
+#currentPics{
+	width : 200px;
+	min-height : 100px;
+	float : left;
+	margin-top : -20px;
+}
+
+#fileUpload{
+	width : 680px;
+	float : right;
+	margin : 0px;
+	margin-top : -20px;
+}
+
+#googlePic{
+	width : 680px;	
+	float : right;
+	margin : 0px;
+	margin-top : -30px;
+}
+
+#googlePic #content {
+	padding-left : 0;
+	padding-right : 0;
+	padding-bottom : 0;
+}
+
+#googleImgDiv {
+	float : left;
+	padding: 5px;
+	width : 154px;
+	height : 200px;
+}
+
+#googleImgDiv a {
+	text-decoration: none;
+	text-align: center;
+}
+
+#googleImage {
+	width: 100%;
+	max-height : 180px;
+}
+
+.googleLinkPageTitle {
+	padding-right : 10px;
+	font-size: 20px;
+	font-family: 'Comic Sans MS';
+	float : left;
+}
+
+.googleLinkPageNumber {
+	padding-right : 10px;
+	color: #F60;
+	font-size: 20px;
+	font-family: 'Comic Sans MS';
+	float : left;
+}
+
+.googleLinkPageNumber a {
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Comic Sans MS';
+}

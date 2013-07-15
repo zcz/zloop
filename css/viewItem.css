@@ -1,0 +1,235 @@
+.pic-cell
+{
+	width:294px;
+	font: normal small Arial,Helvetica,sans-serif;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-right: -800px;
+	float: left;
+	padding:0 28px 0 0;
+}
+
+.info-cell
+{
+	width : 350px;
+	vertical-align:top;
+	padding:0;
+	margin-left : 320px;
+	margin-right : -400px;
+	text-align:left;
+	margin-bottom:20px;
+	float: left;
+}
+
+.shareInfo-cell {
+	width : 240px;
+	margin-left: 300px;
+	margin-right: 20px;
+	float: right;
+}
+
+.itemInstruction {
+	font-family:'Comic Sans MS',cursive;
+	margin-top: 25px;
+	color: #1696C6;
+	font-size: 1.1em;
+	text-align: left;
+}
+
+.itemInstruction > h3 {
+	font-size: 18px;	
+	margin-bottom: 5px;
+}
+
+
+.big-pic
+{
+	border:1px solid #cdcdcd;
+	position:relative;
+	width:292px;
+	height:219px;
+}
+
+.big-pic img
+{
+	max-width:292px;
+	height:219px;
+	display:block; /*images must be set to block in order use auto margins*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center; /*centers images in older browsers*/
+}
+
+.pic-list
+{
+	margin:10px 0 0 0;
+	list-style:none;
+	overflow:hidden;
+	padding:0;
+}
+.pic-list::after
+{
+	content:' 20';
+	display:block;
+	height:0;
+	clear:both;
+}
+
+.pic-list li
+{	
+	float:left;
+	margin:5px 12px 0 0;
+	padding:1px;
+	overflow:hidden;
+	background:0;
+}	
+
+li.pic-selected
+{
+	background:#c30008;
+	padding:2px;
+	/*background-position:0 -50px;*/
+}
+
+li.pic-selected div
+{
+	border:0;
+}
+
+div.small-pic
+{
+	width:40px;
+	height:40px;
+	background-color : white;
+	border:1px solid #cdcdcd;
+	padding : 5px;
+}
+
+/*
+div.small-pic a
+{
+	width:40px;
+	height:40px;
+}
+*/
+
+div.small-pic a img
+{
+	width:40px;
+	height:40px;
+}
+
+
+
+.info-table{
+	border-spacing : 10px;	
+}
+
+.item-title
+{
+	font-size:24px;
+	font-weight:bold;
+	color:#111;
+	line-height:normal;
+	margin:0;
+	padding:0;
+	font-family:Trebuchet,"Trebuchet MS";
+	display:inline;
+}
+
+th.item-detail-label
+{
+	color:#666;
+	vertical-align:text-middle;
+	font-weight:normal;
+	text-align:right;
+	width: 100px;
+	padding:0;
+	margin:0;
+}
+
+td.item-detail-value
+{
+	padding:0 5px 0 16px;
+	vertical-align:middle;
+	color:#333;
+}
+
+.item-detail-text
+{
+	color:#333;
+	margin:0;
+	padding:0;
+}
+
+.item-detail-text a
+{
+	text-decoration:none;
+}
+.item-detail-text a:hover
+{
+	text-decoration:underline;
+}
+
+span.item-detail-text-price
+{
+	font-family:Trebuchet MS;
+	font-weight:bold;
+}
+
+.itemContainer {
+	float: left;
+	width: 132px;
+	height: 175px;
+	border: hidden 1px gray;
+	text-align: center;
+	margin: 0px 2px;
+	overflow : hidden;
+	background-image: url('../images/decoration/item_background1.jpg');
+	border: 2px dashed #A2CD5A;
+}
+
+.itemListContainer {
+	margin-top : 10px;
+	margin-left : 13px;
+	float : left;
+	padding-bottom : 15px;
+}
+
+.itemListItemsCSS {
+	width : 100%;
+	float : right;
+	clear : both;
+}
+
+.itemPicture a img{
+	margin-top: 5px;
+	max-width:120px; 
+    height:126px;
+/*
+border: 3px dashed #A2CD5A;
+*/
+}
+
+.itemPrice {
+	margin-top: 3px;
+	color: #F60;
+	font-size: 14px;
+	font-family: 'Comic Sans MS';
+}
+
+div.itemTitle, .itemTitle a {
+	padding-top: 3px;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.shareAllThings {
+	margin-bottom : -15px;
+	margin-left : 0px;
+}
+
+.shareAllThings a {
+	text-decoration: none;
+}
+

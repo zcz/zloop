@@ -1,0 +1,18 @@
+You need a few things for a client side scripts development:
+	1. IDE(eg. eclipse, optional): a good develop environment, has a lot plug-ins
+	2. web browser(eg. chrome): a good web browser can save you a lot of time for debugging
+	3. text editor(eg. notepad++): may be eclipse, or notepad++ is also a light and good choice
+
+Scripts language example: 
+	1. javascript: I have no idea, but it is quite powerful
+	2. Jquery: it is a library based on javascript, just collects some most used function called
+
+How to start:
+	1. write a file called ***.html, contains some html, some scripts
+	2. open that file with web browser, in which way you can check the result and also debug. 
+	
+Any suggestion: 
+	If you have any suggestion about development of scripts, 
+	please email me by: 398458902 AT qq DOT com
+	
+Thanks and enjoy. 

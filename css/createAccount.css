@@ -1,0 +1,31 @@
+.create-account
+{
+	font-family : arial, sans-serif;
+	padding : 13px 20px;
+	width : 570px;
+	background:whiteSmoke;
+	border : 1px solid #e5e5e5;
+	margin-top : 15px;
+	float : right;
+}
+
+.create-account h3
+{
+	font-size: 1.4em;
+	font-weight:bold;
+	margin:1em 0;
+	display:block;
+}
+
+.create-account input[type="text"], 
+.create-account input[type="password"]
+{
+	width:280px;
+}
+
+span.form-label
+{
+	font-size:13px;
+	font-weight:bold;
+	color:black;
+}
