@@ -1,0 +1,20 @@
+Name:    Zloop
+Brief:   A website for customer to customer things exchange
+Version: 0.0.3
+Details: 
+  Implemented by Php(yii framework), supported by MySQL, with MVC (model-view-controller) architecture.   
+  Users can register, login and logout.
+  Items can be created, searched, viewed, commented, and managed.
+
+Further development:
+  0. Php will remain for the presentation layer. 
+  1. Java will take the place of php for website control.
+  2. Web API(REST, SOAP) will be provided for other software's access.
+  3. HBase will join MySQL in supporting the data storage and processing. 
+  4. The whole system will generally become a distributed system(multi-hosts and serve a wide area).
+  
+  
+Facebook APP(name): Zloop
+App ID:	202321366523553
+App Secret:	554aadd5d5f6d82a55986df1706f1548(reset)
+
